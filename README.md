@@ -15,19 +15,6 @@ mamba-ssm==1.0.1
 casual-conv1d==1.0.0
 ```
 
-## Dataset
-
-Download Link
-
-For IVF, we utilize MSRS, M3FD and FMB.
-
-For MIF, we utilize CT-MRI, PET-MRI and SPECT-MRI from [Harvard medical website](https://www.med.harvard.edu/AANLIB/home.html).
-
-
-## Models
-
-For trained checkpoints, you can find them in folder `'./models`
-
 ## Train
 
 For train, you should first place your path in `train.py`, then run `python train.py`
